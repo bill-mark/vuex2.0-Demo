@@ -3,7 +3,7 @@ import Vuex from 'vuex'
 
 Vue.use(Vuex)
 
-const state = {
+const state = { 
 	count:0
 }
 
@@ -17,8 +17,8 @@ const mutations = {
 }
 
 const actions = {
-	increment:({commit}) => commit('increment'),
-	decrement:({commit}) => commit('decrement')
+	increment:( {commit} ) => commit('increment'),
+	decrement:( {commit} ) => commit('decrement')
 }
 
 const getters = {

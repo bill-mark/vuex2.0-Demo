@@ -11,6 +11,7 @@
 		computed:mapGetters([
 
 		]),
+		
 		methods:mapActions([
 			'increment',
 			'decrement'
